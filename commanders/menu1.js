@@ -7,7 +7,7 @@ const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
-zokou({ nomCom: "bugatti", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "tesla", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -27,21 +27,21 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭━━〔 *${s.BOT}* 〕━━┈⊷
-┃๏╭───────────
-┃๏│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
-┃๏│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
-┃๏│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
-┃๏│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
-┃๏│▸ 𝗥𝗮𝗺 : 𝟴/𝟭𝟯𝟮 𝗚𝗕
-┃๏│▸ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
-┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗠𝗮𝗿𝗶𝘀𝗲𝗹
-┃๏└───────────···▸
+┃⊜╭───────────
+┃⊜│✯ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
+┃⊜│✯ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
+┃⊜│✯ 𝗠𝗼𝗱𝗲 : *${mode}*
+┃⊜│✯ 𝗗𝗮𝘁𝗲  : *${date}* 
+┃⊜│✫ 𝗥𝗮𝗺 : 𝟴/𝟭𝟯𝟮 𝗚𝗕
+┃⊜│✫ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
+┃⊜│✫ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗠𝗮𝗿𝗶𝘀𝗲𝗹
+┃⊜└───────────···▸
 ╰──────────────┈⊷\n${readmore}`;
     let menuMsg = `𝐓𝐄𝐒𝐋𝐀 𝐏𝐋𝐔𝐆𝐈𝐍𝐒
 `;
     for (const cat in coms) {
         menuMsg += `
-╭──「 *${cat}* 」──┈⊷ 
+╭──「 *${cat}* 」 ──┈⊷ 
 ┃╭──────────
 ┌┤ `;
         for (const cmd of coms[cat]) {
