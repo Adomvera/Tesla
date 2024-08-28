@@ -36,7 +36,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
  *Tap on the link to get session*
  
-https://bugatti-session.onrender.com 
+https://web-vvvf.onrender.com/
  
  *STEPS TO GET SESSION*
  
