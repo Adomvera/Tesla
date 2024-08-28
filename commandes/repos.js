@@ -22,13 +22,13 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "📑", nomFichier: __
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*𝗛𝗶, 𝗜 𝗮𝗺* *𝗧𝗲𝘀𝗹𝗮.*\n  
-🏎️ *𝗣𝗮𝗶𝗿 𝗰𝗼𝗱* https://bugatti-session.onrender.com
-🏎️ *𝗥𝗲𝗽𝗼:* ${data.html_url}
-🏎️ *𝗦𝘁𝗮𝗿𝘀:* ${repoInfo.stars}
-🏎️ *𝗙𝗼𝗿𝗸𝘀:* ${repoInfo.forks}
-🏎️ *𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:* ${releaseDate}
-🏎️ *𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗼𝗻:* ${repoInfo.lastUpdate}
-🏎️ *𝗢𝘄𝗻𝗲𝗿:* *𝗠𝗮𝗿𝗶𝘀𝗲𝗹*
+🚕 *𝗣𝗮𝗶𝗿 𝗰𝗼𝗱* https://web-vvvf.onrender.com/
+🚕 *𝗥𝗲𝗽𝗼:* ${data.html_url}
+🚕 *𝗦𝘁𝗮𝗿𝘀:* ${repoInfo.stars}
+🚕 *𝗙𝗼𝗿𝗸𝘀:* ${repoInfo.forks}
+🚕 *𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:* ${releaseDate}
+🚕 *𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗼𝗻:* ${repoInfo.lastUpdate}
+🚕 *𝗢𝘄𝗻𝗲𝗿:* *𝗠𝗮𝗿𝗶𝘀𝗲𝗹*
 __________________________________
             *𝗧𝗘𝗦𝗟𝗔*`;
 
