@@ -47,7 +47,7 @@ const timewisher = (time) => {
 // bug menu
 zokou(
   {
-    nomCom: 'menu',
+    nomCom: 'bugmenu',
     categorie: category,
     reaction: reaction
   },
@@ -60,10 +60,10 @@ zokou(
     const version = versions[Math.floor(Math.random() * versions.length)];
     const menuImage = fs.readFileSync(path.resolve(path.join(__dirname,'..','media','deleted-message.jpg')));
     const tumbUrl = 'https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg';
-    let menu = `${mono}Hello ${ms.pushName}
+    let menu = `Hello ${ms.pushName}
 ${timewisher(time)}
 
-≡𝙹𝙾𝙴𝙻 𝚂𝙻𝙰𝚈𝙴𝚁 𝙼𝙴𝙽𝚄
+≡ 𝚂𝙻𝙰𝚈𝙴𝚁 𝙼𝙴𝙽𝚄
 internalfuck <ammount>
 externalfuck <amount>
 xfuck <number>
